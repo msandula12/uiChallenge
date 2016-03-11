@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+body {
+  padding-top: 30px;
+  background-color: #000;
+  font-family: Helvetica;
+}
+.container {
+  background-color: #fff;
+  width: 800px;
+  height: 600px;
+  padding: 8px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+/* two divs */
+.left,
+.right {
+  height: 100%;
+}
+.left {
+  width: 392px;
+  float: left;
+}
+.right {
+  width: 350px;
+  float: right;
+}
+/* left-hand contents */
+#soho {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+h1,
+h3 {
+  position: absolute;
+  width: 392px;
+}
+h1 {
+  font-family: 'Finger Paint', cursive;
+  color: #fff;
+  font-size: 140px;
+  line-height: 145px;
+  padding-top: 30px;
+  left: 140px;
+}
+h3 {
+  top: 570px;
+  left: 160px;
+  color: #eddc6d;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+h3 > span {
+  border-top: 5px solid #eddc6d;
+}
+/* right-hand contents */
+#price {
+  color: #f45e1d;
+  font-size: 190px;
+}
+#price > sup {
+  font-size: 100px;
+}
+#special {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+h4 {
+  font-size: 20px;
+  color: #ababab;
+  padding-bottom: 30px;
+}
+h4 > span {
+  color: #f00;
+  border-bottom: 5px solid #ababab;
+  margin-left: 20px;
+}
+.details {
+  color: #ababab;
+  margin-bottom: 20px;
+}
+#next {
+  width: 35px;
+  float: right;
+  margin-top: 45px;
+}
